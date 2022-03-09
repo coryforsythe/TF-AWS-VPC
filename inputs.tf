@@ -1,8 +1,8 @@
 variable "access_key" {
-2 }
+}
 
-3 variable "secret_key" {
-4 }
+variable "secret_key" {
+}
 
 variable "VPC_Name" {
 
@@ -26,11 +26,10 @@ variable "VPC_Public_Subnets" {
 
 variable "Environment" {
 type="string"
-default="nonrpod
+default="nonrpod"
 }
 
-20 variable "aws_region" {
-21 	description = "AWS region to launch servers."
-22   	default     = "us-east-1"
-23 }
-24 
+ variable "aws_region" {
+	description = "AWS region to launch servers."
+   	default     = "us-east-1"
+ } 
