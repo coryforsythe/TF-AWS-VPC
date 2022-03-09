@@ -21,5 +21,5 @@ variable "VPC_Public_Subnets" {
 
 variable "Environment" {
     type = string
-    default = "test"
+    default = "NonProd"
 }
