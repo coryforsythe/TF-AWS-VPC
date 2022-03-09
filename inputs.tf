@@ -18,10 +18,6 @@ variable "VPC_Public_Subnets" {
     default=["10.0.0.0/24","10.0.100.0/24"]
 }
 
-variable "AWS_Region" {
-  type=string
-  default="us-east-2"
-}
 
 variable "Environment" {
     type = string
