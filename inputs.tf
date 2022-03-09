@@ -25,11 +25,12 @@ variable "VPC_Public_Subnets" {
 
 
 variable "Environment" {
-type="string"
+type=string
 default="nonrpod"
 }
 
  variable "aws_region" {
+    type=string
 	description = "AWS region to launch servers."
    	default     = "us-east-1"
  } 
